@@ -15,6 +15,33 @@
   border: 1px solid black;
 }
 
+
+.headers-main{
+ display: grid;
+ grid-template-rows: 250px 1fr 60px;
+ grid-template-columns: 250px 1fr 60px;
+ grid-template-areas:"logo nav profile" ;
+}
+
+.logo{
+
+
+}
+
+.logo img{
+height: 35px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+
+}
+.profile{
+  
+}
+
+
 .sidebar{
   grid-area: sidebar;
    padding: 20px;
