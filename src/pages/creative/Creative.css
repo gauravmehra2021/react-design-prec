@@ -1,0 +1,201 @@
+.main {
+  background: #f9faff;
+  height: 100vh;
+  padding: 0 120px;
+  background-image: url("/images/flawer.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 65%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.logo {
+    font-size: 30px;
+}
+
+
+.nav-item ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.nav-item ul li {
+    list-style: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-image {
+    max-width: 420px;
+}
+
+
+.banner-title {
+    color: #fdc435;
+    /* font-size:20px; */
+    font-weight: bold;
+     margin-bottom: 20px;
+
+}
+
+
+
+
+.banner-dis {
+    color: rgb(131, 131, 131);
+    line-height: 1.2
+    
+}
+
+.banner-heading {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+}
+
+.button-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.projects-button{
+    background:#fdb030;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+
+.LinkedIn-button{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.Projects {
+  margin-top: 200px;
+  display: flex;
+    justify-content: center;
+}
+
+
+.Projects p {
+  position: relative;
+  display: inline-block;   /* important */
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.Projects p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;           /* distance from text */
+  transform: translateX(-50%);
+  width: 80px;             /* red line length */
+  height: 4px;
+  background-color: #fdb030;
+  border-radius: 2px;
+}
+
+
+.main-projects{
+ display: flex;
+ justify-content: center;
+}
+
+
+.projectContainer{
+
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin-bottom: 20px;
+    gap: 20px;
+ 
+}
+
+.first-project-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.first-project-dis{
+   color: rgb(131, 131, 131);
+
+}
+
+.first-project-button{
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px 16px;
+    margin-top: 20px;
+}
+
+
+
+.first-project-image img {
+    width: 100%;
+    height: 300px;
+    border-radius: 0px 20px 20px 0px;
+    object-fit: cover;
+}
+.first-project-image-2 img{
+     width: 100%;
+    height: 300px;
+    border-radius:  20px  0px 0px 20px ;
+    object-fit: cover;
+}
+
+.firstProject{
+ align-items: center;
+ margin: 50px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+.icons{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+
