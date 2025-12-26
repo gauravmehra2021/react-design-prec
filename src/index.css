@@ -30,39 +30,6 @@ body {
   min-width: 320px;
 }
 
-/* 5. Media elements behave correctly */
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
 
-/* 6. Form elements inherit text styles */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
 
-/* 7. Remove default button styles (optional but common) */
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
-/* 8. Links reset */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* 9. Lists reset */
-ul,
-ol {
-  list-style: none;
-}

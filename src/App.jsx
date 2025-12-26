@@ -1,7 +1,8 @@
 import React from 'react'
+import Portfolio from './pages/portfolio/Portfolio'
 // import LayoutPRec from './pages/layout/LayoutPRec'
 // import Myantra from './pages/myntra/Myantra'
-import Designer from './pages/designer/Designer'
+// import Designer from './pages/designer/Designer'
 // import Navbars from './pages/navbar/Navbars'
 // import CenterDiv from './pages/centerdiv/CenterDiv'
 // import Creative from './pages/creative/Creative'
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Creative/> */}
       {/* <LayoutPRec/> */}
       {/* <Myantra/> */}
-      <Designer/>
+      {/* <Designer/> */}
+      <Portfolio/>
     </div>
   )
 }
