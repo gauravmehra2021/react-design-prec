@@ -228,7 +228,7 @@ const Portfolio = () => {
                                 <p className='case-topic-title'>
                                     Recent Work</p>
                                 <p className='testimonials-topic-dis'>Solving user & business problems since last 15+ years.
-                                    Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    Solving user & business problems since last 15+ years.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                             
                     </div>
@@ -274,6 +274,60 @@ const Portfolio = () => {
 
 
 
+   <section>
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div className='testimonials-wraper'>
+
+                    <div className='testimonials-topic-heading'>
+                        <div className='testimonials-hero'>
+
+                            <p className='testimonials-topic-title'>
+                               Get In Touch</p>
+                            <p className='testimonials-topic-dis'>Solving user & business problems since last 15+ years.
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+
+                    </div>
+
+                    <div className='formsection'>
+                        <div className='inner-form'>
+                            <div className='input-flex'>
+                            <label htmlFor="name">Name</label>
+                            <input type='text' placeholder='name' id='name'/>
+                            </div>
+
+                              <div className='input-flex'>
+                            <label htmlFor="mobile">Mobile</label>
+                            <input type='text' placeholder='mobile' id='mobile'/>
+                            </div>
+
+                              <div className='input-flex'>
+                            <label htmlFor="Message"> Message</label>
+                            <input type='text' placeholder='Message' id='Message' className='area'/>
+                            </div>
+                               <button className='submit-button'>View case study</button>
+
+                        </div>
+
+                    </div>
+
+
+                   
+                    <br />
+                    <br />
+                    <br />
+                </div>
+
+
+<div className='footer'>
+    Made with ❤️
+</div>
+            </section>
 
 
 
