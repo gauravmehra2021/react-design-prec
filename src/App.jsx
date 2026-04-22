@@ -1,5 +1,6 @@
 import React from 'react'
-import Portfolio from './pages/portfolio/Portfolio'
+// import Portfolio from './pages/portfolio/Portfolio'
+import Skylooking from './pages/skylooking/Skylooking'
 // import LayoutPRec from './pages/layout/LayoutPRec'
 // import Myantra from './pages/myntra/Myantra'
 // import Designer from './pages/designer/Designer'
@@ -16,7 +17,8 @@ const App = () => {
       {/* <LayoutPRec/> */}
       {/* <Myantra/> */}
       {/* <Designer/> */}
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <Skylooking/>
     </div>
   )
 }
