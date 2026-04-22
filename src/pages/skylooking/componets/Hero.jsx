@@ -27,7 +27,7 @@ const Hero = () => {
           {/* Right */}
           <div>
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
-              20%
+              20°
             </h1>
           </div>
 
