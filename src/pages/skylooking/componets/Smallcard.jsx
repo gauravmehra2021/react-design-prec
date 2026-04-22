@@ -11,7 +11,7 @@ const Smallcard = () => {
                                     <div className="text-white text-opacity-70 text-lg font-medium mb-2">
                                         Feels Like
                                     </div>
-                                    <div className="text-white text-6xl font-light">
+                                    <div className="text-white text-2xl font-light">
                                         18°
                                     </div>
                                 </div>
