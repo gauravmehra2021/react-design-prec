@@ -1,6 +1,7 @@
 import React from 'react'
 // import Portfolio from './pages/portfolio/Portfolio'
-import Skylooking from './pages/skylooking/Skylooking'
+// import Skylooking from './pages/skylooking/Skylooking'
+import Jadoo from './pages/jadoo/Jadoo'
 // import LayoutPRec from './pages/layout/LayoutPRec'
 // import Myantra from './pages/myntra/Myantra'
 // import Designer from './pages/designer/Designer'
@@ -18,7 +19,8 @@ const App = () => {
       {/* <Myantra/> */}
       {/* <Designer/> */}
       {/* <Portfolio/> */}
-      <Skylooking/>
+      {/* <Skylooking/> */}
+      <Jadoo/>
     </div>
   )
 }
